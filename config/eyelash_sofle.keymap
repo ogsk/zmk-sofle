@@ -80,11 +80,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8                &kp F9                 &kp F10               &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL             &none
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT               &kp SQT
-&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp NON_US_BACKSLASH  &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans                &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8                &kp F9                 &kp F10               &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL             &none
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT               &kp SQT
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp NON_US_BACKSLASH  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans  &trans  &trans                &trans                 &trans
             >;
 
             display-name = "layer2";
