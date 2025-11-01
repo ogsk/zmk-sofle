@@ -67,10 +67,10 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &trans           &kp F2            &kp F3           &kp F4             &kp F5                      &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9            &kp F10            &kp F11
-&trans      &kp GRAVE        &mkp LCLK         &mkp MCLK        &mkp RCLK          &mkp MB4                    &mmv MOVE_DOWN   &kp PAGE_UP      &kp BACKSPACE    &kp UP      &kp DEL           &kp PAGE_DOWN      &kp EQUAL
+&trans      &trans           &trans            &trans           &trans             &trans                      &mmv MOVE_UP     &trans           &trans           &trans      &trans            &trans             &trans
+&trans      &kp LG(Q)        &kp LG(W)         &kp LC(UP)       &kp LG(LA(C))      &mkp MB4                    &mmv MOVE_DOWN   &kp PAGE_UP      &kp BACKSPACE    &kp UP      &kp DEL           &kp PAGE_DOWN      &kp EQUAL
 &trans      &kp TILDE        &kp LG(LA(LEFT))  &kp LC(DOWN)     &kp LG(LA(RIGHT))  &kp LS(LC(LG(NUMBER_4)))    &mmv MOVE_LEFT   &kp LC(A)        &kp LEFT         &kp DOWN    &kp RIGHT         &kp LC(E)          &kp SEMI
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON    &rgb_ug RGB_EFF  &rgb_ug RGB_EFR    &rgb_ug RGB_SPI             &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON    &rgb_ug RGB_EFF  &rgb_ug RGB_EFR    &rgb_ug RGB_SPI             &mmv MOVE_RIGHT  &trans           &trans           &trans      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
 &kp C_MUTE  &trans           &trans            &trans           &trans             &trans                      &mkp LCLK        &trans           &trans           &trans      &trans            &trans
             >;
 
@@ -80,11 +80,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8                &kp F9                 &kp F10               &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL             &none
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT               &kp SQT
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp NON_US_BACKSLASH  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans  &trans  &trans                &trans                 &trans
+&kp GRAVE  &trans  &kp F2  &kp F3  &kp F4  &kp F5    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8                &kp F9                 &kp F10               &kp F11
+&kp TILDE  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL             &none
+&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT               &kp SQT
+&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp NON_US_BACKSLASH  &kp F12
+&trans     &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans  &trans  &trans                &trans                 &trans
             >;
 
             display-name = "layer2";
