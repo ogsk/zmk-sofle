@@ -70,7 +70,7 @@
 &trans      &trans           &trans            &trans           &trans             &trans                      &mmv MOVE_UP     &trans       &trans         &trans    &trans            &trans             &trans
 &trans      &kp LG(Q)        &kp LG(W)         &kp LC(UP)       &kp LG(LA(C))      &mkp MB4                    &mmv MOVE_DOWN   &kp PAGE_UP  &kp BACKSPACE  &kp UP    &kp DEL           &kp PAGE_DOWN      &kp EQUAL
 &trans      &kp TILDE        &kp LG(LA(LEFT))  &kp LC(DOWN)     &kp LG(LA(RIGHT))  &kp LS(LC(LG(NUMBER_4)))    &mmv MOVE_LEFT   &kp LC(A)    &kp LEFT       &kp DOWN  &kp RIGHT         &kp LC(E)          &kp SEMI
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON    &rgb_ug RGB_EFF  &rgb_ug RGB_EFR    &rgb_ug RGB_SPI             &mmv MOVE_RIGHT  &trans       &trans         &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans      &trans           &trans            &trans           &trans             &trans                      &mmv MOVE_RIGHT  &trans       &trans         &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
 &kp C_MUTE  &trans           &trans            &trans           &trans             &trans                      &mkp LCLK        &trans       &trans         &trans    &trans            &trans
             >;
 
